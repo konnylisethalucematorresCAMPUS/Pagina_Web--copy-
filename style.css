@@ -5,21 +5,33 @@
     height: 800px;
     border:none;
     color:white;
-
-
+    text-align: center;
 }
 button
 {
     background-color: #f05f40;
+    color:white;
     border: none;
 }
 .navbar-brand 
 {
-    border: none;
+    display: flex;
+    flex-wrap: wrap;
     outline: none;
    padding-left: 200px;
-
-
+}
+.menu-inicio{
+    display: block;
+    list-style: none;
+    padding-left: 1000px;
+    text-align: center;
+    
+}
+.parte1 .navbar .menu-inicio > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration:none;
 }
 .sol-luz
 {
@@ -27,6 +39,13 @@ button
     outline:none;
     padding-left: 600px;
 
+}
+.menu-inicio> li:hover{
+background-color: #f05f40;
+}
+.centrar{
+    text-align: center;
+    padding-top: 250px;
 }
 .parte2{
 
@@ -38,6 +57,7 @@ button
 }
 .dos{
     background-color: white;
+    color:black;
     border: none;
 
 }
@@ -59,12 +79,50 @@ h2{display: block;
         font-size: 100px;
         color: #f05f40;
 }
-.parte3
+.parte3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+.de-centrar-1{
+ display: flex;
+ flex-direction: column;
+}
 
+.de-centrar-2{
+    display: flex;
+    flex-direction: column;
+}
 
-
+.de-centrar-3{
+    display: flex;
+    flex-direction: column;
+}
 
 .parte4{
     background-color:#424141;
-
 }
+.parte4 h1{
+    color: white;
+    padding-top: 50px;
+}
+.parte4 .imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom:200px;
+}
+.parte4 img{
+    width: 400px;
+    margin: none;
+    padding: 20px;
+} 
+    

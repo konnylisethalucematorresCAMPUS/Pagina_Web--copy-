@@ -14,7 +14,7 @@ button
     border: none;
 }
 .fondo{
-    background-color: #424141;
+    background-color: black;
     opacity: 0.8;
 }
 .navbar-brand 
@@ -31,6 +31,10 @@ button
     text-align: center;
     
 }
+.menu-inicio > li :hover{
+    background-color: #f05f40;
+}
+
 .parte1 .navbar .menu-inicio > li > a{
     display: block;
     padding: 15px 20px;
@@ -87,12 +91,15 @@ h2{display: block;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 25px;
     padding-left: 300px;
     padding-right: 300px;
+    height: 500px;
 }
 .iconos{
     display: flex;
     flex-direction: row;
+    padding-top:70px;
 }
 .de-centrar-1{
  display: flex;
@@ -112,6 +119,7 @@ h2{display: block;
 .parte4{
     background-color:#424141;
 }
+
 .parte4 h1{
     color: white;
     padding-top: 50px;
@@ -129,4 +137,11 @@ h2{display: block;
     margin: none;
     padding: 20px;
 } 
-    
+.parte5{
+    background-color:#222222;
+}
+.parte5 h3{
+    height: 120px;
+    color: white;
+    padding-top: 40px;
+}
